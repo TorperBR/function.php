@@ -17,11 +17,11 @@
     echo "<br>";
     
     function subtracao($valor1, $valor2){
-        $resultado  = $valor1 + $valor2;
+        $resultado  = $valor1 - $valor2;
         return $resultado;
     }
     
-    $valor =  subtracao(1000, 2000);
+    $valor =  subtracao(9999, 666);
     echo $valor;
 
     echo "<hr>";
@@ -31,11 +31,11 @@
     echo "<br>";
     
     function divisao($valor1, $valor2){
-        $resultado  = $valor1 + $valor2;
+        $resultado  = $valor1 / $valor2;
         return $resultado;
     }
     
-    $valor =  divisao(1000, 2000);
+    $valor =  divisao(81, 9);
     echo $valor;
 
     echo "<hr>";
@@ -44,11 +44,11 @@
     echo "<br>";
     
     function multiplicacao($valor1, $valor2){
-        $resultado  = $valor1 + $valor2;
+        $resultado  = $valor1 * $valor2;
         return $resultado;
     }
     
-    $valor =  multiplicacao(1000, 2000);
+    $valor =  multiplicacao(999999, 9999999);
     echo $valor;
 
 ?>
